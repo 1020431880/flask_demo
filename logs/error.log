@@ -1,0 +1,2270 @@
+[2019-08-30 17:17:47 +0800] [3252] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8080']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10df164d0>
+  on_reload: <function OnReload.on_reload at 0x10df165f0>
+  when_ready: <function WhenReady.when_ready at 0x10df16710>
+  pre_fork: <function Prefork.pre_fork at 0x10df16830>
+  post_fork: <function Postfork.post_fork at 0x10df16950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10df16a70>
+  worker_int: <function WorkerInt.worker_int at 0x10df16b90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10df16cb0>
+  pre_exec: <function PreExec.pre_exec at 0x10df16dd0>
+  pre_request: <function PreRequest.pre_request at 0x10df16ef0>
+  post_request: <function PostRequest.post_request at 0x10df16f80>
+  child_exit: <function ChildExit.child_exit at 0x10df2e0e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x10df2e200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10df2e320>
+  on_exit: <function OnExit.on_exit at 0x10df2e440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-30 17:17:47 +0800] [3252] [INFO] Starting gunicorn 19.9.0
+[2019-08-30 17:17:47 +0800] [3252] [DEBUG] Arbiter booted
+[2019-08-30 17:17:47 +0800] [3252] [INFO] Listening at: http://127.0.0.1:8080 (3252)
+[2019-08-30 17:17:47 +0800] [3252] [INFO] Using worker: gevent
+[2019-08-30 17:17:47 +0800] [3255] [INFO] Booting worker with pid: 3255
+[2019-08-30 17:17:47 +0800] [3252] [DEBUG] 1 workers
+[2019-08-30 17:18:05 +0800] [3255] [DEBUG] GET /index/
+[2019-08-30 17:18:05 +0800] [3255] [DEBUG] GET /index/
+[2019-08-30 17:18:16 +0800] [3255] [DEBUG] GET /index/
+[2019-08-30 17:18:17 +0800] [3255] [DEBUG] GET /index/
+[2019-08-30 17:18:17 +0800] [3255] [DEBUG] GET /index/
+[2019-08-30 17:18:21 +0800] [3255] [DEBUG] GET /index/
+[2019-08-30 17:18:21 +0800] [3255] [DEBUG] GET /index/
+[2019-08-30 17:33:54 +0800] [3252] [INFO] Handling signal: int
+[2019-08-30 17:33:54 +0800] [3255] [INFO] Worker exiting (pid: 3255)
+[2019-08-30 17:33:54 +0800] [3252] [INFO] Shutting down: Master
+[2019-08-30 17:33:56 +0800] [4128] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8080']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x104ca94d0>
+  on_reload: <function OnReload.on_reload at 0x104ca95f0>
+  when_ready: <function WhenReady.when_ready at 0x104ca9710>
+  pre_fork: <function Prefork.pre_fork at 0x104ca9830>
+  post_fork: <function Postfork.post_fork at 0x104ca9950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x104ca9a70>
+  worker_int: <function WorkerInt.worker_int at 0x104ca9b90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x104ca9cb0>
+  pre_exec: <function PreExec.pre_exec at 0x104ca9dd0>
+  pre_request: <function PreRequest.pre_request at 0x104ca9ef0>
+  post_request: <function PostRequest.post_request at 0x104ca9f80>
+  child_exit: <function ChildExit.child_exit at 0x104cc10e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x104cc1200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x104cc1320>
+  on_exit: <function OnExit.on_exit at 0x104cc1440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-30 17:33:56 +0800] [4128] [INFO] Starting gunicorn 19.9.0
+[2019-08-30 17:33:56 +0800] [4128] [DEBUG] Arbiter booted
+[2019-08-30 17:33:56 +0800] [4128] [INFO] Listening at: http://127.0.0.1:8080 (4128)
+[2019-08-30 17:33:56 +0800] [4128] [INFO] Using worker: gevent
+[2019-08-30 17:33:56 +0800] [4131] [INFO] Booting worker with pid: 4131
+[2019-08-30 17:33:56 +0800] [4128] [DEBUG] 1 workers
+[2019-08-30 17:37:35 +0800] [4128] [INFO] Handling signal: int
+[2019-08-30 17:37:35 +0800] [4131] [INFO] Worker exiting (pid: 4131)
+[2019-08-30 17:37:35 +0800] [4128] [INFO] Shutting down: Master
+[2019-08-30 17:37:36 +0800] [4149] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x102fa64d0>
+  on_reload: <function OnReload.on_reload at 0x102fa65f0>
+  when_ready: <function WhenReady.when_ready at 0x102fa6710>
+  pre_fork: <function Prefork.pre_fork at 0x102fa6830>
+  post_fork: <function Postfork.post_fork at 0x102fa6950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x102fa6a70>
+  worker_int: <function WorkerInt.worker_int at 0x102fa6b90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x102fa6cb0>
+  pre_exec: <function PreExec.pre_exec at 0x102fa6dd0>
+  pre_request: <function PreRequest.pre_request at 0x102fa6ef0>
+  post_request: <function PostRequest.post_request at 0x102fa6f80>
+  child_exit: <function ChildExit.child_exit at 0x102fbe0e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x102fbe200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x102fbe320>
+  on_exit: <function OnExit.on_exit at 0x102fbe440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-30 17:37:36 +0800] [4149] [INFO] Starting gunicorn 19.9.0
+[2019-08-30 17:37:36 +0800] [4149] [DEBUG] Arbiter booted
+[2019-08-30 17:37:36 +0800] [4149] [INFO] Listening at: http://127.0.0.1:8000 (4149)
+[2019-08-30 17:37:36 +0800] [4149] [INFO] Using worker: gevent
+[2019-08-30 17:37:36 +0800] [4152] [INFO] Booting worker with pid: 4152
+[2019-08-30 17:37:36 +0800] [4149] [DEBUG] 1 workers
+[2019-08-30 17:37:42 +0800] [4152] [DEBUG] GET /
+[2019-08-30 17:37:42 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:37:48 +0800] [4152] [DEBUG] POST /login/loginin
+[2019-08-30 17:37:48 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:38:16 +0800] [4152] [DEBUG] GET /user/getUser/1
+[2019-08-30 17:38:16 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:38:38 +0800] [4152] [DEBUG] GET /user/getUserById/1
+[2019-08-30 17:38:38 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:29 +0800] [4152] [DEBUG] GET /user/getUserById/1
+[2019-08-30 17:39:29 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:31 +0800] [4152] [DEBUG] GET /user/getUserById/1
+[2019-08-30 17:39:31 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:38 +0800] [4152] [DEBUG] GET /user/getUserById/1
+[2019-08-30 17:39:38 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:40 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:40 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:41 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:41 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:42 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:42 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:42 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:42 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:43 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:44 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:44 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:44 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:44 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:39:49 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:39:49 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:41:05 +0800] [4152] [DEBUG] GET /api/user/getUserById/1
+[2019-08-30 17:41:05 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:41:14 +0800] [4152] [DEBUG] GET /api/user/getUserById/1
+[2019-08-30 17:41:14 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:41:14 +0800] [4152] [DEBUG] GET /api/user/getUserById/1
+[2019-08-30 17:41:14 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:41:26 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:41:26 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:41:26 +0800] [4152] [DEBUG] GET //user/getUserById/1
+[2019-08-30 17:41:26 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:46:27 +0800] [4152] [DEBUG] GET //user/getUserById/1/
+[2019-08-30 17:46:27 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:46:38 +0800] [4152] [DEBUG] GET //user/getUser
+[2019-08-30 17:46:38 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:46:49 +0800] [4152] [DEBUG] GET /user/getUser/
+[2019-08-30 17:46:49 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:46:54 +0800] [4152] [DEBUG] GET //user/getUser/
+[2019-08-30 17:46:54 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:47:17 +0800] [4152] [DEBUG] GET //user/getUser
+[2019-08-30 17:47:17 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:47:25 +0800] [4152] [DEBUG] GET //user/getUser/
+[2019-08-30 17:47:25 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:47:52 +0800] [4152] [DEBUG] GET /user/getUser/
+[2019-08-30 17:47:52 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:47:54 +0800] [4152] [DEBUG] GET /user/getUser
+[2019-08-30 17:47:54 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:48:03 +0800] [4152] [DEBUG] GET /user/getUser
+[2019-08-30 17:48:03 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:48:10 +0800] [4152] [DEBUG] GET /user/getUser
+[2019-08-30 17:48:10 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:48:16 +0800] [4152] [DEBUG] GET /user/getUser/
+[2019-08-30 17:48:16 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:48:19 +0800] [4152] [DEBUG] GET /user/getUser
+[2019-08-30 17:48:19 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:48:21 +0800] [4152] [DEBUG] GET /user/getUser/
+[2019-08-30 17:48:21 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:48:27 +0800] [4152] [DEBUG] GET /user/getUser/
+[2019-08-30 17:48:27 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:55:51 +0800] [4152] [DEBUG] GET /static/my.png
+[2019-08-30 17:55:51 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:55:59 +0800] [4152] [DEBUG] GET /static/my.jpg
+[2019-08-30 17:55:59 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:56:08 +0800] [4152] [DEBUG] GET /static/
+[2019-08-30 17:56:08 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:56:11 +0800] [4152] [DEBUG] GET /static
+[2019-08-30 17:56:11 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:56:48 +0800] [4152] [DEBUG] GET /static
+[2019-08-30 17:56:48 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:56:52 +0800] [4152] [DEBUG] GET /demo
+[2019-08-30 17:56:52 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:57:17 +0800] [4152] [DEBUG] GET /demo
+[2019-08-30 17:57:17 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 17:57:40 +0800] [4152] [DEBUG] GET /demo
+[2019-08-30 17:57:40 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 18:00:03 +0800] [4152] [DEBUG] GET /demo
+[2019-08-30 18:00:03 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 18:04:25 +0800] [4152] [DEBUG] GET /demo
+[2019-08-30 18:04:25 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 18:04:28 +0800] [4152] [DEBUG] GET /demo
+[2019-08-30 18:04:28 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 18:04:34 +0800] [4152] [DEBUG] GET /demo
+[2019-08-30 18:04:34 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 18:04:36 +0800] [4152] [DEBUG] GET /demo
+[2019-08-30 18:04:36 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 18:12:30 +0800] [4152] [DEBUG] GET //user/getUser/
+[2019-08-30 18:12:30 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 18:12:32 +0800] [4152] [DEBUG] GET //user/getUser
+[2019-08-30 18:12:33 +0800] [4152] [DEBUG] Closing connection. 
+[2019-08-30 18:12:59 +0800] [4149] [INFO] Handling signal: int
+[2019-08-30 18:12:59 +0800] [4152] [INFO] Worker exiting (pid: 4152)
+[2019-08-30 18:12:59 +0800] [4149] [INFO] Shutting down: Master
+[2019-08-30 18:13:00 +0800] [4310] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1076ae4d0>
+  on_reload: <function OnReload.on_reload at 0x1076ae5f0>
+  when_ready: <function WhenReady.when_ready at 0x1076ae710>
+  pre_fork: <function Prefork.pre_fork at 0x1076ae830>
+  post_fork: <function Postfork.post_fork at 0x1076ae950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x1076aea70>
+  worker_int: <function WorkerInt.worker_int at 0x1076aeb90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x1076aecb0>
+  pre_exec: <function PreExec.pre_exec at 0x1076aedd0>
+  pre_request: <function PreRequest.pre_request at 0x1076aeef0>
+  post_request: <function PostRequest.post_request at 0x1076aef80>
+  child_exit: <function ChildExit.child_exit at 0x1076c60e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x1076c6200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x1076c6320>
+  on_exit: <function OnExit.on_exit at 0x1076c6440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-30 18:13:00 +0800] [4310] [INFO] Starting gunicorn 19.9.0
+[2019-08-30 18:13:00 +0800] [4310] [DEBUG] Arbiter booted
+[2019-08-30 18:13:00 +0800] [4310] [INFO] Listening at: http://127.0.0.1:8000 (4310)
+[2019-08-30 18:13:00 +0800] [4310] [INFO] Using worker: gevent
+[2019-08-30 18:13:00 +0800] [4313] [INFO] Booting worker with pid: 4313
+[2019-08-30 18:13:00 +0800] [4310] [DEBUG] 1 workers
+[2019-08-30 18:13:02 +0800] [4313] [DEBUG] GET //user/getUser
+[2019-08-30 18:13:02 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:13:03 +0800] [4313] [DEBUG] GET //user/getUser
+[2019-08-30 18:13:03 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:13:08 +0800] [4313] [DEBUG] GET //user/getUser/
+[2019-08-30 18:13:08 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:13:09 +0800] [4313] [DEBUG] GET //user/getUser/
+[2019-08-30 18:13:09 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:13:12 +0800] [4313] [DEBUG] GET //user/getUser
+[2019-08-30 18:13:12 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:19:21 +0800] [4313] [DEBUG] POST //user/getUser
+[2019-08-30 18:19:21 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:19:33 +0800] [4313] [DEBUG] GET //user/getUser
+[2019-08-30 18:19:33 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:19:38 +0800] [4313] [DEBUG] GET //user/getUser/
+[2019-08-30 18:19:38 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:19:41 +0800] [4313] [DEBUG] GET //user/getUser
+[2019-08-30 18:19:41 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:19:56 +0800] [4313] [DEBUG] GET /api/user/getUser
+[2019-08-30 18:19:56 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:19:57 +0800] [4313] [DEBUG] GET /api/user/getUser
+[2019-08-30 18:19:57 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:20:05 +0800] [4313] [DEBUG] GET //user/getUser
+[2019-08-30 18:20:05 +0800] [4313] [DEBUG] Closing connection. 
+[2019-08-30 18:25:07 +0800] [4310] [INFO] Handling signal: int
+[2019-08-30 18:25:07 +0800] [4313] [INFO] Worker exiting (pid: 4313)
+[2019-08-30 18:25:08 +0800] [4310] [INFO] Shutting down: Master
+[2019-08-30 18:25:09 +0800] [4371] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1102ce4d0>
+  on_reload: <function OnReload.on_reload at 0x1102ce5f0>
+  when_ready: <function WhenReady.when_ready at 0x1102ce710>
+  pre_fork: <function Prefork.pre_fork at 0x1102ce830>
+  post_fork: <function Postfork.post_fork at 0x1102ce950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x1102cea70>
+  worker_int: <function WorkerInt.worker_int at 0x1102ceb90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x1102cecb0>
+  pre_exec: <function PreExec.pre_exec at 0x1102cedd0>
+  pre_request: <function PreRequest.pre_request at 0x1102ceef0>
+  post_request: <function PostRequest.post_request at 0x1102cef80>
+  child_exit: <function ChildExit.child_exit at 0x1102e60e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x1102e6200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x1102e6320>
+  on_exit: <function OnExit.on_exit at 0x1102e6440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-30 18:25:09 +0800] [4371] [INFO] Starting gunicorn 19.9.0
+[2019-08-30 18:25:09 +0800] [4371] [DEBUG] Arbiter booted
+[2019-08-30 18:25:09 +0800] [4371] [INFO] Listening at: http://127.0.0.1:8000 (4371)
+[2019-08-30 18:25:09 +0800] [4371] [INFO] Using worker: gevent
+[2019-08-30 18:25:09 +0800] [4374] [INFO] Booting worker with pid: 4374
+[2019-08-30 18:25:09 +0800] [4371] [DEBUG] 1 workers
+[2019-08-30 18:29:43 +0800] [4374] [DEBUG] GET /static/
+[2019-08-30 18:29:43 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:29:45 +0800] [4374] [DEBUG] GET /static
+[2019-08-30 18:29:45 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:29:48 +0800] [4374] [DEBUG] GET /static
+[2019-08-30 18:29:48 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:34:14 +0800] [4374] [DEBUG] GET /
+[2019-08-30 18:34:14 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:34:19 +0800] [4374] [DEBUG] GET /
+[2019-08-30 18:34:19 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:34:30 +0800] [4374] [DEBUG] POST /login/loginin
+[2019-08-30 18:34:30,957] ERROR in app: Exception on /login/loginin [POST]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/login.py", line 13, in login_in
+    'data': '登陆成功，登陆的信息是：' + request.args
+TypeError: can only concatenate str (not "ImmutableMultiDict") to str
+[2019-08-30 18:34:30 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:35:16 +0800] [4374] [DEBUG] POST /login/loginin
+[2019-08-30 18:35:16,629] ERROR in app: Exception on /login/loginin [POST]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/login.py", line 13, in login_in
+    'data': '登陆成功，登陆的信息是：' + request.args
+TypeError: can only concatenate str (not "ImmutableMultiDict") to str
+[2019-08-30 18:35:16 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:35:22 +0800] [4374] [DEBUG] POST /login/loginin
+[2019-08-30 18:35:22,764] ERROR in app: Exception on /login/loginin [POST]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/login.py", line 13, in login_in
+    'data': '登陆成功，登陆的信息是：' + request.args
+TypeError: can only concatenate str (not "ImmutableMultiDict") to str
+[2019-08-30 18:35:22 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:35:28 +0800] [4374] [DEBUG] POST /login//loginin
+[2019-08-30 18:35:28 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:35:59 +0800] [4374] [DEBUG] POST /login//loginin
+[2019-08-30 18:35:59 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:36:01 +0800] [4374] [DEBUG] POST /login//loginin
+[2019-08-30 18:36:01 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:36:01 +0800] [4374] [DEBUG] POST /login//loginin
+[2019-08-30 18:36:01 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:36:02 +0800] [4374] [DEBUG] POST /login//loginin
+[2019-08-30 18:36:02 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:36:02 +0800] [4374] [DEBUG] POST /login//loginin
+[2019-08-30 18:36:02 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:36:02 +0800] [4374] [DEBUG] POST /login//loginin
+[2019-08-30 18:36:02 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:36:02 +0800] [4374] [DEBUG] POST /login//loginin
+[2019-08-30 18:36:02 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:36:31 +0800] [4374] [DEBUG] POST /login//loginin
+[2019-08-30 18:36:31 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:36:38 +0800] [4374] [DEBUG] POST /login//loginin/
+[2019-08-30 18:36:38 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:36:41 +0800] [4374] [DEBUG] POST /login//loginin
+[2019-08-30 18:36:41 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:37:43 +0800] [4374] [DEBUG] POST /login/loginin
+[2019-08-30 18:37:43,782] ERROR in app: Exception on /login/loginin [POST]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/login.py", line 13, in login_in
+    'data': '登陆成功，登陆的信息是：' + request.args
+TypeError: can only concatenate str (not "ImmutableMultiDict") to str
+[2019-08-30 18:37:49 +0800] [4374] [DEBUG] POST /login/loginin
+[2019-08-30 18:37:49,720] ERROR in app: Exception on /login/loginin [POST]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/login.py", line 13, in login_in
+    'data': '登陆成功，登陆的信息是：' + request.args
+TypeError: can only concatenate str (not "ImmutableMultiDict") to str
+[2019-08-30 18:37:57 +0800] [4374] [DEBUG] POST /user/getUser
+[2019-08-30 18:38:18 +0800] [4374] [DEBUG] GET /user/getUser
+[2019-08-30 18:38:19 +0800] [4374] [DEBUG] GET /user/getUser
+[2019-08-30 18:38:24 +0800] [4374] [DEBUG] GET /user/getUser
+[2019-08-30 18:38:24 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:38:24 +0800] [4374] [DEBUG] GET /user/getUser
+[2019-08-30 18:38:24 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:38:25 +0800] [4374] [DEBUG] GET /user/getUser
+[2019-08-30 18:38:25 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:38:26 +0800] [4374] [DEBUG] GET /user/getUser
+[2019-08-30 18:38:26 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:38:27 +0800] [4374] [DEBUG] GET /user/getUser
+[2019-08-30 18:38:27 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:38:52 +0800] [4374] [DEBUG] GET /user//getUser
+[2019-08-30 18:38:52 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:38:53 +0800] [4374] [DEBUG] GET /user//getUser
+[2019-08-30 18:38:53 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:38:55 +0800] [4374] [DEBUG] GET /user//getUser
+[2019-08-30 18:38:55 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:40:59 +0800] [4374] [DEBUG] GET /user//user/getUser
+[2019-08-30 18:40:59 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:42:07 +0800] [4374] [DEBUG] GET /user//user/getUser
+[2019-08-30 18:42:07 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:42:20 +0800] [4374] [DEBUG] GET /user//getUser
+[2019-08-30 18:42:20 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:43:37 +0800] [4374] [DEBUG] GET /user//getUser
+[2019-08-30 18:43:37 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:43:50 +0800] [4374] [DEBUG] GET /user/getUser
+[2019-08-30 18:43:50 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:43:51 +0800] [4374] [DEBUG] GET /user/getUser
+[2019-08-30 18:43:51 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:43:56 +0800] [4374] [DEBUG] GET /user/user/getUser
+[2019-08-30 18:43:56 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:44:46 +0800] [4374] [DEBUG] GET /user/user/getUser
+[2019-08-30 18:44:46 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:44:52 +0800] [4374] [DEBUG] GET /user/getUser
+[2019-08-30 18:44:52 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:45:27 +0800] [4374] [DEBUG] GET /user//getUser
+[2019-08-30 18:45:27 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:45:28 +0800] [4374] [DEBUG] GET /user//getUser
+[2019-08-30 18:45:28 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:45:33 +0800] [4374] [DEBUG] GET /user//user/getUser
+[2019-08-30 18:45:33 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:46:54 +0800] [4374] [DEBUG] GET /user//user/getUser/
+[2019-08-30 18:46:54 +0800] [4374] [DEBUG] Closing connection. 
+[2019-08-30 18:51:21 +0800] [4371] [INFO] Handling signal: int
+[2019-08-30 18:51:21 +0800] [4374] [INFO] Worker exiting (pid: 4374)
+[2019-08-30 18:51:21 +0800] [4371] [INFO] Shutting down: Master
+[2019-08-30 18:51:22 +0800] [4483] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1013854d0>
+  on_reload: <function OnReload.on_reload at 0x1013855f0>
+  when_ready: <function WhenReady.when_ready at 0x101385710>
+  pre_fork: <function Prefork.pre_fork at 0x101385830>
+  post_fork: <function Postfork.post_fork at 0x101385950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x101385a70>
+  worker_int: <function WorkerInt.worker_int at 0x101385b90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x101385cb0>
+  pre_exec: <function PreExec.pre_exec at 0x101385dd0>
+  pre_request: <function PreRequest.pre_request at 0x101385ef0>
+  post_request: <function PostRequest.post_request at 0x101385f80>
+  child_exit: <function ChildExit.child_exit at 0x10139d0e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x10139d200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10139d320>
+  on_exit: <function OnExit.on_exit at 0x10139d440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-30 18:51:22 +0800] [4483] [INFO] Starting gunicorn 19.9.0
+[2019-08-30 18:51:22 +0800] [4483] [DEBUG] Arbiter booted
+[2019-08-30 18:51:22 +0800] [4483] [INFO] Listening at: http://127.0.0.1:8000 (4483)
+[2019-08-30 18:51:22 +0800] [4483] [INFO] Using worker: gevent
+[2019-08-30 18:51:22 +0800] [4486] [INFO] Booting worker with pid: 4486
+[2019-08-30 18:51:22 +0800] [4483] [DEBUG] 1 workers
+[2019-08-30 18:52:20 +0800] [4486] [DEBUG] GET /v1//getVersion
+[2019-08-30 18:52:20 +0800] [4486] [DEBUG] Closing connection. 
+[2019-08-30 18:52:34 +0800] [4486] [DEBUG] GET /v1//v1/getVersion
+[2019-08-30 18:52:34 +0800] [4486] [DEBUG] Closing connection. 
+[2019-08-30 18:53:08 +0800] [4486] [DEBUG] GET /v1//version/v1/getVersion
+[2019-08-30 18:53:08 +0800] [4486] [DEBUG] Closing connection. 
+[2019-08-30 18:53:37 +0800] [4486] [DEBUG] GET /version//version/v1/getVersion
+[2019-08-30 18:53:37 +0800] [4486] [DEBUG] Closing connection. 
+[2019-08-30 19:22:35 +0800] [4483] [INFO] Handling signal: int
+[2019-08-30 19:22:35 +0800] [4486] [INFO] Worker exiting (pid: 4486)
+[2019-08-30 19:22:35 +0800] [4483] [INFO] Shutting down: Master
+[2019-08-30 19:22:36 +0800] [4544] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1023a64d0>
+  on_reload: <function OnReload.on_reload at 0x1023a65f0>
+  when_ready: <function WhenReady.when_ready at 0x1023a6710>
+  pre_fork: <function Prefork.pre_fork at 0x1023a6830>
+  post_fork: <function Postfork.post_fork at 0x1023a6950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x1023a6a70>
+  worker_int: <function WorkerInt.worker_int at 0x1023a6b90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x1023a6cb0>
+  pre_exec: <function PreExec.pre_exec at 0x1023a6dd0>
+  pre_request: <function PreRequest.pre_request at 0x1023a6ef0>
+  post_request: <function PostRequest.post_request at 0x1023a6f80>
+  child_exit: <function ChildExit.child_exit at 0x1023be0e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x1023be200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x1023be320>
+  on_exit: <function OnExit.on_exit at 0x1023be440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-30 19:22:36 +0800] [4544] [INFO] Starting gunicorn 19.9.0
+[2019-08-30 19:22:36 +0800] [4544] [DEBUG] Arbiter booted
+[2019-08-30 19:22:36 +0800] [4544] [INFO] Listening at: http://127.0.0.1:8000 (4544)
+[2019-08-30 19:22:36 +0800] [4544] [INFO] Using worker: gevent
+[2019-08-30 19:22:36 +0800] [4547] [INFO] Booting worker with pid: 4547
+[2019-08-30 19:22:36 +0800] [4544] [DEBUG] 1 workers
+[2019-08-30 19:22:48 +0800] [4547] [DEBUG] GET /version//getVersion
+[2019-08-30 19:22:48 +0800] [4547] [DEBUG] Closing connection. 
+[2019-08-30 19:22:50 +0800] [4547] [DEBUG] GET /version//getVersion
+[2019-08-30 19:22:50 +0800] [4547] [DEBUG] Closing connection. 
+[2019-08-30 19:23:35 +0800] [4547] [DEBUG] GET /version//getVersion
+[2019-08-30 19:23:35 +0800] [4547] [DEBUG] Closing connection. 
+[2019-08-30 19:24:39 +0800] [4547] [DEBUG] GET /version//getVersion
+[2019-08-30 19:24:39 +0800] [4547] [DEBUG] Closing connection. 
+[2019-08-30 19:24:54 +0800] [4547] [DEBUG] GET /version/getVersion
+[2019-08-30 19:24:54 +0800] [4547] [DEBUG] Closing connection. 
+[2019-08-30 19:25:16 +0800] [4547] [DEBUG] GET /version/getVersion
+[2019-08-30 19:25:16 +0800] [4547] [DEBUG] Closing connection. 
+[2019-08-30 19:25:28 +0800] [4547] [DEBUG] GET /version//getVersion
+[2019-08-30 19:25:28 +0800] [4547] [DEBUG] Closing connection. 
+[2019-08-30 19:25:30 +0800] [4547] [DEBUG] GET /version//getVersion
+[2019-08-30 19:25:30 +0800] [4547] [DEBUG] Closing connection. 
+[2019-08-30 19:25:31 +0800] [4547] [DEBUG] GET /version//getVersion
+[2019-08-30 19:25:31 +0800] [4547] [DEBUG] Closing connection. 
+[2019-08-30 19:26:43 +0800] [4547] [DEBUG] GET /version/getVersion
+[2019-08-30 19:26:43 +0800] [4547] [DEBUG] Closing connection. 
+[2019-08-30 19:26:51 +0800] [4547] [DEBUG] GET /version/getVersion
+[2019-08-30 19:27:29 +0800] [4547] [DEBUG] GET /version/getVersion
+[2019-08-30 19:27:37 +0800] [4544] [INFO] Handling signal: int
+[2019-08-30 19:27:37 +0800] [4547] [INFO] Worker exiting (pid: 4547)
+[2019-08-30 19:27:37 +0800] [4544] [INFO] Shutting down: Master
+[2019-08-30 19:27:38 +0800] [4579] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10a65d4d0>
+  on_reload: <function OnReload.on_reload at 0x10a65d5f0>
+  when_ready: <function WhenReady.when_ready at 0x10a65d710>
+  pre_fork: <function Prefork.pre_fork at 0x10a65d830>
+  post_fork: <function Postfork.post_fork at 0x10a65d950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10a65da70>
+  worker_int: <function WorkerInt.worker_int at 0x10a65db90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10a65dcb0>
+  pre_exec: <function PreExec.pre_exec at 0x10a65ddd0>
+  pre_request: <function PreRequest.pre_request at 0x10a65def0>
+  post_request: <function PostRequest.post_request at 0x10a65df80>
+  child_exit: <function ChildExit.child_exit at 0x10a6750e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x10a675200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10a675320>
+  on_exit: <function OnExit.on_exit at 0x10a675440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-30 19:27:38 +0800] [4579] [INFO] Starting gunicorn 19.9.0
+[2019-08-30 19:27:38 +0800] [4579] [DEBUG] Arbiter booted
+[2019-08-30 19:27:38 +0800] [4579] [INFO] Listening at: http://127.0.0.1:8000 (4579)
+[2019-08-30 19:27:38 +0800] [4579] [INFO] Using worker: gevent
+[2019-08-30 19:27:38 +0800] [4582] [INFO] Booting worker with pid: 4582
+[2019-08-30 19:27:38 +0800] [4579] [DEBUG] 1 workers
+[2019-08-30 19:27:43 +0800] [4582] [DEBUG] GET /version/getVersion
+[2019-08-30 19:28:05 +0800] [4579] [INFO] Handling signal: int
+[2019-08-30 19:28:05 +0800] [4582] [INFO] Worker exiting (pid: 4582)
+[2019-08-30 19:28:05 +0800] [4579] [INFO] Shutting down: Master
+[2019-08-30 19:28:06 +0800] [4590] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10b3964d0>
+  on_reload: <function OnReload.on_reload at 0x10b3965f0>
+  when_ready: <function WhenReady.when_ready at 0x10b396710>
+  pre_fork: <function Prefork.pre_fork at 0x10b396830>
+  post_fork: <function Postfork.post_fork at 0x10b396950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10b396a70>
+  worker_int: <function WorkerInt.worker_int at 0x10b396b90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10b396cb0>
+  pre_exec: <function PreExec.pre_exec at 0x10b396dd0>
+  pre_request: <function PreRequest.pre_request at 0x10b396ef0>
+  post_request: <function PostRequest.post_request at 0x10b396f80>
+  child_exit: <function ChildExit.child_exit at 0x10b3ae0e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x10b3ae200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10b3ae320>
+  on_exit: <function OnExit.on_exit at 0x10b3ae440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-30 19:28:06 +0800] [4590] [INFO] Starting gunicorn 19.9.0
+[2019-08-30 19:28:06 +0800] [4590] [DEBUG] Arbiter booted
+[2019-08-30 19:28:06 +0800] [4590] [INFO] Listening at: http://127.0.0.1:8000 (4590)
+[2019-08-30 19:28:06 +0800] [4590] [INFO] Using worker: gevent
+[2019-08-30 19:28:06 +0800] [4593] [INFO] Booting worker with pid: 4593
+[2019-08-30 19:28:06 +0800] [4590] [DEBUG] 1 workers
+[2019-08-30 19:28:08 +0800] [4593] [DEBUG] GET /version/getVersion
+[2019-08-30 19:28:14 +0800] [4593] [DEBUG] GET /version/getVersion
+[2019-08-30 19:28:14 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:28:15 +0800] [4593] [DEBUG] GET /version/getVersion
+[2019-08-30 19:28:15 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:28:16 +0800] [4593] [DEBUG] GET /version/getVersion
+[2019-08-30 19:28:16 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:28:28 +0800] [4593] [DEBUG] GET /version//getVersion
+[2019-08-30 19:28:28 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:29:01 +0800] [4593] [DEBUG] GET /user/getVersion
+[2019-08-30 19:29:01 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:29:03 +0800] [4593] [DEBUG] GET /version/getVersion
+[2019-08-30 19:29:03 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:29:04 +0800] [4593] [DEBUG] GET /version/getVersion
+[2019-08-30 19:29:04 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:34:46 +0800] [4593] [DEBUG] GET /version/getVersion
+[2019-08-30 19:34:46 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:34:47 +0800] [4593] [DEBUG] GET /version/getVersion
+[2019-08-30 19:34:47 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:34:58 +0800] [4593] [DEBUG] GET /version//getVersion
+[2019-08-30 19:34:58 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:34:59 +0800] [4593] [DEBUG] GET /version//getVersion
+[2019-08-30 19:34:59 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:40:39 +0800] [4593] [DEBUG] GET /version//getVersion
+[2019-08-30 19:40:39 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:40:46 +0800] [4593] [DEBUG] GET /version//getVersion/
+[2019-08-30 19:40:46 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:40:56 +0800] [4593] [DEBUG] GET /version//version/getVersion
+[2019-08-30 19:40:56 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:41:12 +0800] [4593] [DEBUG] GET /user/user/getUser
+[2019-08-30 19:41:12 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:41:27 +0800] [4593] [DEBUG] GET /user/user/getUser
+[2019-08-30 19:41:27 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:41:34 +0800] [4593] [DEBUG] GET /user/getUser
+[2019-08-30 19:41:34 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:41:35 +0800] [4593] [DEBUG] GET /user/getUser
+[2019-08-30 19:41:35 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:42:00 +0800] [4593] [DEBUG] GET /version//version/getVersion
+[2019-08-30 19:42:00 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:44:51 +0800] [4593] [DEBUG] GET /version//version/getVersion
+[2019-08-30 19:44:51 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:55:21 +0800] [4593] [DEBUG] GET /version/version/getVersion
+[2019-08-30 19:55:21 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:55:22 +0800] [4593] [DEBUG] GET /version/version/getVersion
+[2019-08-30 19:55:22 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:55:25 +0800] [4593] [DEBUG] GET /version/getVersion
+[2019-08-30 19:55:25 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:55:41 +0800] [4593] [DEBUG] GET /version//getVersion
+[2019-08-30 19:55:41 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:55:48 +0800] [4593] [DEBUG] GET /version/getVersion
+[2019-08-30 19:55:48 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 19:56:43 +0800] [4593] [DEBUG] GET /user/getUser
+[2019-08-30 19:56:43 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 20:00:08 +0800] [4593] [DEBUG] GET /user/getUser
+[2019-08-30 20:00:08 +0800] [4593] [DEBUG] Closing connection. 
+[2019-08-30 20:00:10 +0800] [4593] [DEBUG] GET /user/getUser
+[2019-08-30 20:00:10 +0800] [4593] [DEBUG] Closing connection. 
+[2019-09-02 16:45:18 +0800] [4593] [DEBUG] worker: SIGWINCH ignored.
+[2019-09-02 16:45:18 +0800] [4590] [INFO] Handling signal: winch
+[2019-09-02 16:45:18 +0800] [4590] [DEBUG] SIGWINCH ignored. Not daemonized
+[2019-09-02 16:45:37 +0800] [4590] [INFO] Handling signal: int
+[2019-09-02 16:45:37 +0800] [4593] [INFO] Worker exiting (pid: 4593)
+[2019-09-02 16:45:37 +0800] [4590] [INFO] Shutting down: Master
+[2019-09-02 16:46:04 +0800] [34272] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1014484d0>
+  on_reload: <function OnReload.on_reload at 0x1014485f0>
+  when_ready: <function WhenReady.when_ready at 0x101448710>
+  pre_fork: <function Prefork.pre_fork at 0x101448830>
+  post_fork: <function Postfork.post_fork at 0x101448950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x101448a70>
+  worker_int: <function WorkerInt.worker_int at 0x101448b90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x101448cb0>
+  pre_exec: <function PreExec.pre_exec at 0x101448dd0>
+  pre_request: <function PreRequest.pre_request at 0x101448ef0>
+  post_request: <function PostRequest.post_request at 0x101448f80>
+  child_exit: <function ChildExit.child_exit at 0x1014600e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x101460200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x101460320>
+  on_exit: <function OnExit.on_exit at 0x101460440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-09-02 16:46:04 +0800] [34272] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 16:46:04 +0800] [34272] [DEBUG] Arbiter booted
+[2019-09-02 16:46:04 +0800] [34272] [INFO] Listening at: http://127.0.0.1:8000 (34272)
+[2019-09-02 16:46:04 +0800] [34272] [INFO] Using worker: gevent
+[2019-09-02 16:46:04 +0800] [34275] [INFO] Booting worker with pid: 34275
+[2019-09-02 16:46:04 +0800] [34272] [DEBUG] 1 workers
+[2019-09-02 16:46:10 +0800] [34275] [DEBUG] POST /login/loginin
+[2019-09-02 16:46:10,460] ERROR in app: Exception on /login/loginin [POST]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask_restplus/api.py", line 584, in error_router
+    return original_handler(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/login.py", line 13, in login_in
+    'data': '登陆成功，登陆的信息是：' + request.args
+TypeError: can only concatenate str (not "ImmutableMultiDict") to str
+[2019-09-02 16:46:10 +0800] [34275] [DEBUG] Closing connection. 
+[2019-09-02 16:46:14 +0800] [34275] [DEBUG] GET /login/loginin
+[2019-09-02 16:46:15 +0800] [34275] [DEBUG] GET /favicon.ico
+[2019-09-02 16:46:43 +0800] [34275] [DEBUG] GET /user/getUser
+[2019-09-02 17:44:03 +0800] [34272] [INFO] Handling signal: int
+[2019-09-02 17:44:03 +0800] [34275] [INFO] Worker exiting (pid: 34275)
+[2019-09-02 17:44:04 +0800] [34272] [INFO] Shutting down: Master
+[2019-09-02 17:44:05 +0800] [35140] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10c50e4d0>
+  on_reload: <function OnReload.on_reload at 0x10c50e5f0>
+  when_ready: <function WhenReady.when_ready at 0x10c50e710>
+  pre_fork: <function Prefork.pre_fork at 0x10c50e830>
+  post_fork: <function Postfork.post_fork at 0x10c50e950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10c50ea70>
+  worker_int: <function WorkerInt.worker_int at 0x10c50eb90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10c50ecb0>
+  pre_exec: <function PreExec.pre_exec at 0x10c50edd0>
+  pre_request: <function PreRequest.pre_request at 0x10c50eef0>
+  post_request: <function PostRequest.post_request at 0x10c50ef80>
+  child_exit: <function ChildExit.child_exit at 0x10c5260e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x10c526200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10c526320>
+  on_exit: <function OnExit.on_exit at 0x10c526440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-09-02 17:44:05 +0800] [35140] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 17:44:05 +0800] [35140] [DEBUG] Arbiter booted
+[2019-09-02 17:44:05 +0800] [35140] [INFO] Listening at: http://127.0.0.1:8000 (35140)
+[2019-09-02 17:44:05 +0800] [35140] [INFO] Using worker: gevent
+[2019-09-02 17:44:05 +0800] [35143] [INFO] Booting worker with pid: 35143
+[2019-09-02 17:44:05 +0800] [35140] [DEBUG] 1 workers
+[2019-09-02 17:44:05 +0800] [35143] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/ggevent.py", line 203, in init_process
+    super(GeventWorker, self).init_process()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/andy/PycharmProjects/flaskDemo/app.py", line 7, in <module>
+    from src.router.version import version
+ModuleNotFoundError: No module named 'src.router.version'
+[2019-09-02 17:44:05 +0800] [35143] [INFO] Worker exiting (pid: 35143)
+[2019-09-02 17:44:05 +0800] [35140] [INFO] Shutting down: Master
+[2019-09-02 17:44:05 +0800] [35140] [INFO] Reason: Worker failed to boot.
+[2019-09-02 17:44:16 +0800] [35147] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x104fc54d0>
+  on_reload: <function OnReload.on_reload at 0x104fc55f0>
+  when_ready: <function WhenReady.when_ready at 0x104fc5710>
+  pre_fork: <function Prefork.pre_fork at 0x104fc5830>
+  post_fork: <function Postfork.post_fork at 0x104fc5950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x104fc5a70>
+  worker_int: <function WorkerInt.worker_int at 0x104fc5b90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x104fc5cb0>
+  pre_exec: <function PreExec.pre_exec at 0x104fc5dd0>
+  pre_request: <function PreRequest.pre_request at 0x104fc5ef0>
+  post_request: <function PostRequest.post_request at 0x104fc5f80>
+  child_exit: <function ChildExit.child_exit at 0x104fdd0e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x104fdd200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x104fdd320>
+  on_exit: <function OnExit.on_exit at 0x104fdd440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-09-02 17:44:16 +0800] [35147] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 17:44:16 +0800] [35147] [DEBUG] Arbiter booted
+[2019-09-02 17:44:16 +0800] [35147] [INFO] Listening at: http://127.0.0.1:8000 (35147)
+[2019-09-02 17:44:16 +0800] [35147] [INFO] Using worker: gevent
+[2019-09-02 17:44:16 +0800] [35150] [INFO] Booting worker with pid: 35150
+[2019-09-02 17:44:16 +0800] [35147] [DEBUG] 1 workers
+[2019-09-02 17:44:16 +0800] [35150] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/ggevent.py", line 203, in init_process
+    super(GeventWorker, self).init_process()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/andy/PycharmProjects/flaskDemo/app.py", line 7, in <module>
+    from src.router.version import version
+ModuleNotFoundError: No module named 'src.router.version'
+[2019-09-02 17:44:16 +0800] [35150] [INFO] Worker exiting (pid: 35150)
+[2019-09-02 17:44:16 +0800] [35147] [INFO] Shutting down: Master
+[2019-09-02 17:44:16 +0800] [35147] [INFO] Reason: Worker failed to boot.
+[2019-09-02 17:48:58 +0800] [35284] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1081464d0>
+  on_reload: <function OnReload.on_reload at 0x1081465f0>
+  when_ready: <function WhenReady.when_ready at 0x108146710>
+  pre_fork: <function Prefork.pre_fork at 0x108146830>
+  post_fork: <function Postfork.post_fork at 0x108146950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x108146a70>
+  worker_int: <function WorkerInt.worker_int at 0x108146b90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x108146cb0>
+  pre_exec: <function PreExec.pre_exec at 0x108146dd0>
+  pre_request: <function PreRequest.pre_request at 0x108146ef0>
+  post_request: <function PostRequest.post_request at 0x108146f80>
+  child_exit: <function ChildExit.child_exit at 0x10815e0e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x10815e200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10815e320>
+  on_exit: <function OnExit.on_exit at 0x10815e440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-09-02 17:48:58 +0800] [35284] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 17:48:58 +0800] [35284] [DEBUG] Arbiter booted
+[2019-09-02 17:48:58 +0800] [35284] [INFO] Listening at: http://127.0.0.1:8000 (35284)
+[2019-09-02 17:48:58 +0800] [35284] [INFO] Using worker: gevent
+[2019-09-02 17:48:58 +0800] [35287] [INFO] Booting worker with pid: 35287
+[2019-09-02 17:48:58 +0800] [35284] [DEBUG] 1 workers
+[2019-09-02 17:50:21 +0800] [35287] [DEBUG] GET /user/getUser
+[2019-09-02 17:50:21,160] ERROR in app: Exception on /user/getUser [GET]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/user.py", line 14, in getUser
+    list = userService.queryUsers()
+TypeError: queryUsers() missing 1 required positional argument: 'self'
+[2019-09-02 17:50:24 +0800] [35287] [DEBUG] GET /user/getUser
+[2019-09-02 17:50:24,623] ERROR in app: Exception on /user/getUser [GET]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/user.py", line 14, in getUser
+    list = userService.queryUsers()
+TypeError: queryUsers() missing 1 required positional argument: 'self'
+[2019-09-02 17:50:31 +0800] [35287] [DEBUG] GET /user/getUser
+[2019-09-02 17:50:31,332] ERROR in app: Exception on /user/getUser [GET]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/user.py", line 14, in getUser
+    list = userService.queryUsers()
+TypeError: queryUsers() missing 1 required positional argument: 'self'
+[2019-09-02 17:50:40 +0800] [35284] [INFO] Handling signal: winch
+[2019-09-02 17:50:40 +0800] [35287] [DEBUG] worker: SIGWINCH ignored.
+[2019-09-02 17:50:40 +0800] [35284] [DEBUG] SIGWINCH ignored. Not daemonized
+[2019-09-02 17:51:49 +0800] [35287] [DEBUG] GET /user/getUser
+[2019-09-02 17:51:49,534] ERROR in app: Exception on /user/getUser [GET]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/user.py", line 14, in getUser
+    list = userService.queryUsers()
+TypeError: queryUsers() missing 1 required positional argument: 'self'
+[2019-09-02 17:52:30 +0800] [35284] [INFO] Handling signal: int
+[2019-09-02 17:52:30 +0800] [35287] [INFO] Worker exiting (pid: 35287)
+[2019-09-02 17:52:30 +0800] [35284] [INFO] Shutting down: Master
+[2019-09-02 17:52:31 +0800] [35344] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10f62b4d0>
+  on_reload: <function OnReload.on_reload at 0x10f62b5f0>
+  when_ready: <function WhenReady.when_ready at 0x10f62b710>
+  pre_fork: <function Prefork.pre_fork at 0x10f62b830>
+  post_fork: <function Postfork.post_fork at 0x10f62b950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10f62ba70>
+  worker_int: <function WorkerInt.worker_int at 0x10f62bb90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10f62bcb0>
+  pre_exec: <function PreExec.pre_exec at 0x10f62bdd0>
+  pre_request: <function PreRequest.pre_request at 0x10f62bef0>
+  post_request: <function PostRequest.post_request at 0x10f62bf80>
+  child_exit: <function ChildExit.child_exit at 0x10f6430e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x10f643200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10f643320>
+  on_exit: <function OnExit.on_exit at 0x10f643440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-09-02 17:52:31 +0800] [35344] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 17:52:31 +0800] [35344] [DEBUG] Arbiter booted
+[2019-09-02 17:52:31 +0800] [35344] [INFO] Listening at: http://127.0.0.1:8000 (35344)
+[2019-09-02 17:52:31 +0800] [35344] [INFO] Using worker: gevent
+[2019-09-02 17:52:31 +0800] [35347] [INFO] Booting worker with pid: 35347
+[2019-09-02 17:52:31 +0800] [35344] [DEBUG] 1 workers
+[2019-09-02 17:52:34 +0800] [35347] [DEBUG] GET /user/getUser
+[2019-09-02 17:52:34,286] ERROR in app: Exception on /user/getUser [GET]
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/andy/PycharmProjects/flaskDemo/src/router/user.py", line 14, in getUser
+    list = userService.queryUsers()
+TypeError: queryUsers() missing 1 required positional argument: 'self'
+[2019-09-02 17:53:11 +0800] [35344] [INFO] Handling signal: int
+[2019-09-02 17:53:11 +0800] [35347] [INFO] Worker exiting (pid: 35347)
+[2019-09-02 17:53:11 +0800] [35344] [INFO] Shutting down: Master
+[2019-09-02 17:53:12 +0800] [35355] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10d4af4d0>
+  on_reload: <function OnReload.on_reload at 0x10d4af5f0>
+  when_ready: <function WhenReady.when_ready at 0x10d4af710>
+  pre_fork: <function Prefork.pre_fork at 0x10d4af830>
+  post_fork: <function Postfork.post_fork at 0x10d4af950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10d4afa70>
+  worker_int: <function WorkerInt.worker_int at 0x10d4afb90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10d4afcb0>
+  pre_exec: <function PreExec.pre_exec at 0x10d4afdd0>
+  pre_request: <function PreRequest.pre_request at 0x10d4afef0>
+  post_request: <function PostRequest.post_request at 0x10d4aff80>
+  child_exit: <function ChildExit.child_exit at 0x10d4c70e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x10d4c7200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10d4c7320>
+  on_exit: <function OnExit.on_exit at 0x10d4c7440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-09-02 17:53:12 +0800] [35355] [INFO] Starting gunicorn 19.9.0
+[2019-09-02 17:53:12 +0800] [35355] [DEBUG] Arbiter booted
+[2019-09-02 17:53:12 +0800] [35355] [INFO] Listening at: http://127.0.0.1:8000 (35355)
+[2019-09-02 17:53:12 +0800] [35355] [INFO] Using worker: gevent
+[2019-09-02 17:53:12 +0800] [35358] [INFO] Booting worker with pid: 35358
+[2019-09-02 17:53:12 +0800] [35355] [DEBUG] 1 workers
+[2019-09-02 17:53:15 +0800] [35358] [DEBUG] GET /user/getUser
+[2019-09-03 11:20:49 +0800] [35355] [INFO] Handling signal: winch
+[2019-09-03 11:20:49 +0800] [35358] [DEBUG] worker: SIGWINCH ignored.
+[2019-09-03 11:20:49 +0800] [35355] [DEBUG] SIGWINCH ignored. Not daemonized
+[2019-09-03 11:20:51 +0800] [35355] [INFO] Handling signal: int
+[2019-09-03 11:20:51 +0800] [35358] [INFO] Worker exiting (pid: 35358)
+[2019-09-03 11:20:51 +0800] [35355] [INFO] Shutting down: Master
+[2019-09-25 11:41:53 +0800] [43433] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10271d560>
+  on_reload: <function OnReload.on_reload at 0x10271d680>
+  when_ready: <function WhenReady.when_ready at 0x10271d7a0>
+  pre_fork: <function Prefork.pre_fork at 0x10271d8c0>
+  post_fork: <function Postfork.post_fork at 0x10271d9e0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10271db00>
+  worker_int: <function WorkerInt.worker_int at 0x10271dc20>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10271dd40>
+  pre_exec: <function PreExec.pre_exec at 0x10271de60>
+  pre_request: <function PreRequest.pre_request at 0x10271df80>
+  post_request: <function PostRequest.post_request at 0x102735050>
+  child_exit: <function ChildExit.child_exit at 0x102735170>
+  worker_exit: <function WorkerExit.worker_exit at 0x102735290>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x1027353b0>
+  on_exit: <function OnExit.on_exit at 0x1027354d0>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-09-25 11:41:53 +0800] [43433] [INFO] Starting gunicorn 19.9.0
+[2019-09-25 11:41:53 +0800] [43433] [DEBUG] Arbiter booted
+[2019-09-25 11:41:53 +0800] [43433] [INFO] Listening at: http://127.0.0.1:8000 (43433)
+[2019-09-25 11:41:53 +0800] [43433] [INFO] Using worker: gevent
+[2019-09-25 11:41:53 +0800] [43436] [INFO] Booting worker with pid: 43436
+[2019-09-25 11:41:53 +0800] [43433] [DEBUG] 1 workers
+[2019-09-25 11:42:18 +0800] [43436] [DEBUG] GET /user/getUser
+[2019-09-25 11:56:17 +0800] [43433] [INFO] Handling signal: int
+[2019-09-25 11:56:17 +0800] [43436] [INFO] Worker exiting (pid: 43436)
+[2019-09-25 11:56:17 +0800] [43433] [INFO] Shutting down: Master
+[2019-09-25 11:56:18 +0800] [43519] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x10f2784d0>
+  on_reload: <function OnReload.on_reload at 0x10f2785f0>
+  when_ready: <function WhenReady.when_ready at 0x10f278710>
+  pre_fork: <function Prefork.pre_fork at 0x10f278830>
+  post_fork: <function Postfork.post_fork at 0x10f278950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x10f278a70>
+  worker_int: <function WorkerInt.worker_int at 0x10f278b90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x10f278cb0>
+  pre_exec: <function PreExec.pre_exec at 0x10f278dd0>
+  pre_request: <function PreRequest.pre_request at 0x10f278ef0>
+  post_request: <function PostRequest.post_request at 0x10f278f80>
+  child_exit: <function ChildExit.child_exit at 0x10f28e0e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x10f28e200>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10f28e320>
+  on_exit: <function OnExit.on_exit at 0x10f28e440>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-09-25 11:56:18 +0800] [43519] [INFO] Starting gunicorn 19.9.0
+[2019-09-25 11:56:18 +0800] [43519] [DEBUG] Arbiter booted
+[2019-09-25 11:56:18 +0800] [43519] [INFO] Listening at: http://127.0.0.1:8000 (43519)
+[2019-09-25 11:56:18 +0800] [43519] [INFO] Using worker: gevent
+[2019-09-25 11:56:18 +0800] [43522] [INFO] Booting worker with pid: 43522
+[2019-09-25 11:56:18 +0800] [43519] [DEBUG] 1 workers
+[2019-09-25 11:56:18 +0800] [43522] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/ggevent.py", line 203, in init_process
+    super(GeventWorker, self).init_process()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/andy/PycharmProjects/flaskDemo/app.py", line 1, in <module>
+    from flask import Flask, render_template, session, request
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/__init__.py", line 14, in <module>
+    from jinja2 import escape
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/jinja2/__init__.py", line 36, in <module>
+    from jinja2.loaders import BaseLoader, FileSystemLoader, PackageLoader, \
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/jinja2/loaders.py", line 217
+    epagesutf-8'):
+             ^
+SyntaxError: invalid syntax
+[2019-09-25 11:56:18 +0800] [43522] [INFO] Worker exiting (pid: 43522)
+[2019-09-25 11:56:18 +0800] [43519] [INFO] Shutting down: Master
+[2019-09-25 11:56:18 +0800] [43519] [INFO] Reason: Worker failed to boot.
+[2019-09-25 11:56:40 +0800] [43528] [DEBUG] Current configuration:
+  config: gunicorn.py
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: gevent
+  threads: 2
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /Users/andy/PycharmProjects/flaskDemo
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: logs/catalina.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%({X-Real-IP}i)s"
+  errorlog: logs/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x108b85560>
+  on_reload: <function OnReload.on_reload at 0x108b85680>
+  when_ready: <function WhenReady.when_ready at 0x108b857a0>
+  pre_fork: <function Prefork.pre_fork at 0x108b858c0>
+  post_fork: <function Postfork.post_fork at 0x108b859e0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x108b85b00>
+  worker_int: <function WorkerInt.worker_int at 0x108b85c20>
+  worker_abort: <function WorkerAbort.worker_abort at 0x108b85d40>
+  pre_exec: <function PreExec.pre_exec at 0x108b85e60>
+  pre_request: <function PreRequest.pre_request at 0x108b85f80>
+  post_request: <function PostRequest.post_request at 0x108b9d050>
+  child_exit: <function ChildExit.child_exit at 0x108b9d170>
+  worker_exit: <function WorkerExit.worker_exit at 0x108b9d290>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x108b9d3b0>
+  on_exit: <function OnExit.on_exit at 0x108b9d4d0>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-09-25 11:56:40 +0800] [43528] [INFO] Starting gunicorn 19.9.0
+[2019-09-25 11:56:40 +0800] [43528] [DEBUG] Arbiter booted
+[2019-09-25 11:56:40 +0800] [43528] [INFO] Listening at: http://127.0.0.1:8000 (43528)
+[2019-09-25 11:56:40 +0800] [43528] [INFO] Using worker: gevent
+[2019-09-25 11:56:40 +0800] [43531] [INFO] Booting worker with pid: 43531
+[2019-09-25 11:56:40 +0800] [43528] [DEBUG] 1 workers
+[2019-09-25 11:56:40 +0800] [43531] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/ggevent.py", line 203, in init_process
+    super(GeventWorker, self).init_process()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/Users/andy/PycharmProjects/flaskDemo/app.py", line 1, in <module>
+    from flask import Flask, render_template, session, request
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/flask/__init__.py", line 14, in <module>
+    from jinja2 import escape
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/jinja2/__init__.py", line 36, in <module>
+    from jinja2.loaders import BaseLoader, FileSystemLoader, PackageLoader, \
+  File "/Users/andy/PycharmProjects/flaskDemo/venv/lib/python3.7/site-packages/jinja2/loaders.py", line 217
+    epagesutf-8'):
+             ^
+SyntaxError: invalid syntax
+[2019-09-25 11:56:40 +0800] [43531] [INFO] Worker exiting (pid: 43531)
+[2019-09-25 11:56:40 +0800] [43528] [INFO] Shutting down: Master
+[2019-09-25 11:56:40 +0800] [43528] [INFO] Reason: Worker failed to boot.

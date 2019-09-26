@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="static/images/head.png"/>
+{% if userName == 'admin' %}
+    你好，欢迎 管理员 进入
+{% else %}
+    你好，欢迎 {{ userName }} 进入
+{% endif %}
+</form>
+</body>
+</html>
